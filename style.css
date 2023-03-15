@@ -1,0 +1,346 @@
+/* Boşluk Sıfırlama */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar CSS */
+.baslik {
+    background-color: #000;
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    height: 40px;
+    padding-top: 13px;
+    font-size: 15px;
+}
+
+.yazi {
+    color: #fff;
+    font-family: sans-serif ;
+    margin-left: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.yazi:hover {
+    background: #fff;
+    color: #000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    padding: 3px;
+}
+
+.dropbtn {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    border: none;
+    color:#fff;
+    background-color: #000;
+}
+
+.dropdown:hover {
+    color: white;
+    background-color:#fff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:gray;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:white;
+    color: #000;
+}
+
+.navimg {
+    width: 20px;
+    height: 20px; 
+    float: right;
+    margin-top: 6px;
+    margin-right: 15px;
+}
+
+.navimg:hover {
+    background-color: red;
+}
+
+/* Picture CSS */
+.pic {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('/assets/la.jpg');    
+}
+
+.text1 {
+    text-align: center;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    color:#fff;
+}
+
+/* Section CSS */
+
+.head1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.head2 {
+    text-align: center;
+    margin-top: 40px;
+    color: gray;
+}
+
+.pg1 {
+    text-align: center;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.anadiv {
+    margin-top: 30px;
+    margin-left: 18%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.tour {
+    background-color: #000;
+    position: relative;
+    margin-top: 250px;
+    width: 100%;
+    height: 800px;
+}
+
+.th1 {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 80px;
+}
+
+.tp1 {
+    color: grey;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 135px;
+}
+
+.list {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 25%;
+    width: 700px;
+    height: 95px;
+    padding: 15px;
+    border: 1px;
+    border-style: solid;
+    background-color: #fff;
+    color: grey;
+    list-style-type: none;
+}
+
+.li1 {
+    padding:7px;
+}
+
+.sp1 {
+    margin-left: 20px;
+    border-style: solid;
+    border-color: red;
+    background-color: red;
+    color:#fff;
+}
+
+.li2 {
+    padding: 9px;
+}
+
+.sp2 {
+    margin-left: 20px;
+    border-style: solid;
+    border-color: red;
+    background-color: red;
+    color:#fff;
+}
+
+.li3 {
+    padding: 9px;
+}
+
+.sp3 {
+    float: right;
+    border: 1px;
+    border-style: solid;
+    border-radius: 60%;
+    width: 15px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 300px;
+    margin-left: 21.5%;
+    gap: 30px;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+      
+.container {
+   padding: 2px 16px;
+}
+
+.ny {
+    width: 220px;
+    height: 375px;
+    background-color: #fff;
+}
+
+.img1 {
+    width: 220px;
+}
+
+.prg1 {
+    color: gray;
+}
+
+.button1 {
+    background-color: #000;
+    color: #fff;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.button1:hover {
+    background-color: grey;
+}
+
+.prs {
+    background-color: #fff;
+    size: 40%;
+}
+
+.sanf {
+    background-color: #fff;
+    size: 40%;
+}
+
+/* Contact CSS */
+.contact {
+    margin-top: 50px;
+}
+
+.ch {
+    margin-top: 50px;
+    margin-left: 47%;
+}
+
+.cp {
+    margin-top: 20px;
+    margin-left: 47%;
+}
+
+.bilgi {
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.cont1 {
+    margin-left: 55%;
+    display: flex;
+    position:absolute;
+    margin-top: -70px
+}
+
+.name {
+    height: 30px;
+}
+
+.message {
+    height: 30px;
+}
+
+.button2 {
+    background-color: #000;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    float: right;
+}
+
+.button2:hover {
+    background-color: grey;
+}
+
+/* Map CSS */
+
+.map {
+    margin-top: 170px;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(/assets/map.jpg);
+}
+
+/* Footer CSS */
+
+.footer{
+    margin-left: 45%;
+}
+
+.fimg {
+    width: 20px;
+    height: 20px;
+    color: grey;
+    margin-top: 100px;
+}
+
+.fimg:hover {
+    background-color: grey;
+}
+
+.footprg {
+    text-align: center;
+    margin-top: 5px;
+    color: gray;
+}
