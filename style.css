@@ -1,23 +1,25 @@
 /* Boşluk Sıfırlama */
 * {
     margin: 0;
-    padding: 0;
+}
+
+body {
+    margin: 0px;
+    font-family: "Lato" , sans-serif;
 }
 
 /* Navbar CSS */
-.baslik {
+.ustnav {
     background-color: #000;
-    margin: 0px;
-    margin-top: 2px;
-    padding: 0px;
     height: 40px;
+    width: 100%;
     padding-top: 13px;
     font-size: 15px;
+    position: fixed;
 }
 
 .yazi {
     color: #fff;
-    font-family: sans-serif ;
     margin-left: 25px;
     padding: 10px;
     text-decoration: none;
@@ -31,12 +33,9 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    margin-right: 2px;
-    padding: 3px;
 }
 
 .dropbtn {
-    font-family: sans-serif;
     font-size: 18px;
     margin-left: 10px;
     border: none;
@@ -79,60 +78,64 @@
     color: #000;
 }
 
-.navimg {
+.search {
     width: 20px;
     height: 20px; 
     float: right;
-    margin-top: 6px;
+    margin-top: 5px;
     margin-right: 15px;
+    color: white;
 }
 
-.navimg:hover {
+.search:hover {
     background-color: red;
+    size: 50px;
 }
 
 /* Picture CSS */
-.pic {
+.picture {
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-image: url('/assets/la.jpg');    
 }
 
-.text1 {
+.pictext {
     text-align: center;
     position: absolute;
     margin-left: 38%;
-    margin-top: 40%;
-    margin-bottom: 40%;
+    margin-top: 38%;
     color:#fff;
 }
 
 /* Section CSS */
 
-.head1 {
-    text-align: center;
-    margin-top: 50px;
+.section {
+    height: 300px;
 }
 
-.head2 {
+.sech1 {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.sech2 {
     text-align: center;
     margin-top: 40px;
     color: gray;
 }
 
-.pg1 {
-    text-align: center;
+.secparagraf {
+    text-align: justify;
+    margin-left: 19%;
     margin-top: 40px;
-    text-align: center;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .anadiv {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 18%;
     float: left;
-    display: flex;
     justify-content: center;
 }
 
@@ -144,26 +147,26 @@
     height: 800px;
 }
 
-.th1 {
+.tourh1 {
     color: #fff;
     text-align: center;
     position: absolute;
-    margin-left: 45%;
-    margin-top: 80px;
+    margin-left: 43%;
+    margin-top: 75px;
 }
 
-.tp1 {
+.tourp1 {
     color: grey;
     position: absolute;
-    margin-left: 43%;
-    margin-top: 135px;
+    margin-left: 42%;
+    margin-top: 132px;
 }
 
 .list {
     position: absolute;
-    margin-top: 200px;
-    margin-left: 25%;
-    width: 700px;
+    margin-top: 195px;
+    margin-left: 21%;
+    width: 740px;
     height: 95px;
     padding: 15px;
     border: 1px;
@@ -174,7 +177,7 @@
 }
 
 .li1 {
-    padding:7px;
+    padding:6px;
 }
 
 .sp1 {
@@ -186,26 +189,26 @@
 }
 
 .li2 {
-    padding: 9px;
+    padding: 8px;
 }
 
 .sp2 {
     margin-left: 20px;
     border-style: solid;
-    border-color: red;
-    background-color: red;
+    border-color: rgba(255, 0, 0, 0.76);
+    background-color: rgba(255, 0, 0, 0.76);
     color:#fff;
 }
 
 .li3 {
-    padding: 9px;
+    padding: 8px;
 }
 
 .sp3 {
     float: right;
     border: 1px;
     border-style: solid;
-    border-radius: 60%;
+    border-radius: 50%;
     width: 15px;
     text-align: center;
     background-color: #000;
@@ -216,8 +219,8 @@
     box-shadow: 0 4px 8px 0(0,0,0,0.2);
     transition: 0.3s;
     margin-top: 300px;
-    margin-left: 21.5%;
-    gap: 30px;
+    margin-left: 17.5%;
+    gap: 10px;
     padding: 50px;
     display: flex;
     position: absolute;
@@ -229,17 +232,30 @@
 }
 
 .ny {
-    width: 220px;
+    width: 250px;
     height: 375px;
     background-color: #fff;
 }
 
 .img1 {
-    width: 220px;
+    width: 250px;
+    height: 170px;
 }
 
-.prg1 {
+.ch1 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.cprg1 {
     color: gray;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.cprg2 {
+    margin-left: 10px;
+    font-size: 15px;
 }
 
 .button1 {
@@ -257,12 +273,12 @@
 
 .prs {
     background-color: #fff;
-    size: 40%;
+    width: 250px;
 }
 
 .sanf {
     background-color: #fff;
-    size: 40%;
+    width: 249.5px;
 }
 
 /* Contact CSS */
@@ -271,25 +287,40 @@
 }
 
 .ch {
-    margin-top: 50px;
-    margin-left: 47%;
+    margin-top: 70px;
+    margin-left: 45%;
+    font-weight: normal;
 }
 
 .cp {
     margin-top: 20px;
-    margin-left: 47%;
+    margin-left: 46%;
+    color: grey;
 }
 
 .bilgi {
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: 20%;
 }
 
+.location {
+    padding: 3px;
+}
+
+.phone  {
+    padding: 3px;
+}
+
+.mail {
+    padding: 3px;
+}
+
 .cont1 {
-    margin-left: 55%;
+    margin-left: 50%;
     display: flex;
     position:absolute;
-    margin-top: -70px
+    margin-top: -110px;
+    border: 1px;
 }
 
 .name {
@@ -330,7 +361,7 @@
 
 .fimg {
     width: 20px;
-    height: 20px;
+    height: 40px;
     color: grey;
     margin-top: 100px;
 }
@@ -342,5 +373,6 @@
 .footprg {
     text-align: center;
     margin-top: 5px;
+    margin-bottom: 5px;
     color: gray;
 }
