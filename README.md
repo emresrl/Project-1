@@ -1,10 +1,13 @@
 # Project 1
 
-![Ödev Görseli](/screenshots/1.png)
-![Ödev Görseli](/screenshots/2.png)
-![Ödev Görseli](/screenshots/3.png)
-![Ödev Görseli](/screenshots/4.png)
-![Ödev Görseli](/screenshots/5.png)
+![Proje Görseli](/screenshots/1.png)
+![Proje Görseli](/screenshots/2.png)
+![Proje Görseli](/screenshots/3.png)
+![Proje Görseli](/screenshots/4.png)
+![Proje Görseli](/screenshots/5.png)
+![Proje Görseli](/screenshots/6.png)
+![Proje Görseli](/screenshots/7.png)
+![Proje Görseli](/screenshots/8.png)
 
 <!-- LİNK -->
 
