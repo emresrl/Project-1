@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>W3.CSS Template</title>
     <link rel="icon" href="/favicon/1.png" type="image/x-icon" />
     <link rel="stylesheet" href="/style.css">
@@ -12,11 +12,11 @@
 </head>
 <body>
     <!-- Navbar Start -->
-    <div class="ustnav">
-        <a href="#" class="yazi">HOME</a>
-        <a href="#band" class="yazi">BAND</a>
-        <a href="#tour" class="yazi">TOUR</a>
-        <a href="#contact" class="yazi">CONTACT</a>
+    <nav class="menu">
+        <li><a href="#" class="yazi">HOME</a></li>
+        <li></li><a href="#band" class="yazi">BAND</a></li>
+        <li><a href="#tour" class="yazi">TOUR</a></li>
+        <li></li><a href="#contact" class="yazi">CONTACT</a></li>
         <div class="dropdown">
             <button class="dropbtn">MORE <i class="fa-solid fa-caret-down"></i></button>
             <div class="dropdown-content">
@@ -26,50 +26,48 @@
             </div>
           </div>
           <a href="#"><i class="fa-solid fa-magnifying-glass search"></i></a>
-    </div>
+        </nav>
     <!-- Navbar End -->
-
-    <!-- Picture Start -->
-    <div class="picture">
+    <div class="picture1">
+        <div class="pic">
+            <img class="pic" src="/assets/la.jpg" style="width: 100%;">
         <div class="pictext">
         <h3>Los Angeles</h3>
-        <br>
         <p><b>We had the best time playing at Venice Beach!</b></p>
     </div>
+</div>
 </div>
     <!-- Picture End -->
 
     <!-- Section Start -->
-    <div class="section">
-        <h2 class="sech1" id="band">T H E &nbsp; B A N D</h2>
+    <section class="section" id="band">
+        <h2 class="sech1">T H E &nbsp; B A N D</h2>
         <h3 class="sech2"><i>We love music</i></h3>
-        <p class="secparagraf">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <br> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit <br> anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="secparagraf">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div>
             <div class="anadiv">
-                <div>
-                <p style="text-align: center; padding: 5px;">Name</p>
-                <img src="/assets/bandmember.jpg" style="width: 130px; height: 140px;">
+                <div class="d1">
+                <p class="bprg1">Name</p>
+                <img class="bimg1" src="/assets/bandmember.jpg">
             </div>
             </div>
             <div class="anadiv">
-                <div>
-                <p style="text-align: center; padding: 5px;">Name</p>
-                <img src="/assets/bandmember.jpg" style="width: 130px; height: 140px;">
+                <div class="d2">
+                <p class="bprg1">Name</p>
+                <img class="bimg1" src="/assets/bandmember.jpg">
             </div>
             </div>
             <div class="anadiv">
-                <div>
-                <p style="text-align: center; padding: 5px;">Name</p>
-                <img src="/assets/bandmember.jpg" style="width: 130px; height: 140px;">
+                <div class="d3">
+                <p class="bprg1">Name</p>
+                <img class="bimg1" src="/assets/bandmember.jpg">
             </div>
             </div>
-        </div>
     </div>
     <div class="tour" id="tour">
         <div>
         <h2 class="tourh1">T O U R &nbsp; D A T E S</h2>
-        <p class="tourp1">Remember to book your tickets!</p>
-
+        <p class="tourp1"><i>Remember to book your tickets!</i></p>
         <ul class="list">
             <li class="li1">September<span class="sp1">Sold Out</span></li>
             <hr>
@@ -82,50 +80,38 @@
         <div class="ny">
         <img class="img1" src="/assets/newyork.jpg">
         <br>
-        <br>
             <h3 class="ch1">New York</h3>
-            <br>
             <p class="cprg1">Fri 27 Nov 2016</p>
-            <br>
-            <p class="cprg2">Praesent tincidunt sed tellus ut <br> rutrum sed vitae justo.</p>
-            <br>
+            <p class="cprg2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
             <button class="button1" type="submit">Buy Tickets</button>
         </div>
         <div class="prs">
             <img class="img1" src="/assets/paris.jpg">
             <br>
-            <br>
             <h3 class="ch1">Paris</h3>
-            <br>
             <p class="cprg1">Sat 28 Nov 2016</p>
-            <br>
-            <p class="cprg2">Praesent tincidunt sed tellus ut <br> rutrum sed vitae justo.</p>
-            <br>
+            <p class="cprg2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
             <button class="button1" type="submit">Buy Tickets</button>
         </div>
         <div class="sanf">
             <img class="img1" src="/assets/sanfran.jpg">
             <br>
-            <br>
             <h3 class="ch1">San Francisco</h3>
-            <br>
             <p class="cprg1">Sun 29 Nov 2016</p>
-            <br>
-            <p class="cprg2">Praesent tincidunt sed tellus ut <br> rutrum sed vitae justo.</p>
-            <br>
+            <p class="cprg2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
             <button class="button1" type="submit">Buy Tickets</button>
         </div>
     </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div>
-        <h2 class="ch" id="contact">C O N T A C T</h2>
+        <h2 class="ch">C O N T A C T</h2>
         <p class="cp"><i>Fan? Drop a note!</i></p>
         <div class="anadiv1">
             <div class="bilgi">
-                <i class="fa-solid fa-location-dot location" style="height: 30px;"></i> Chicago, US <br>
-                <i class="fa-solid fa-phone phone" style="height: 30px;"></i> Phone: +00 151515 <br>
-                <i class="fa-solid fa-envelope mail" style="height: 30px;"></i> Email: mail@mail.com
+                <i class="fa-solid fa-location-dot location logo"></i> Chicago, US <br>
+                <i class="fa-solid fa-phone phone logo"></i> Phone: +00 151515 <br>
+                <i class="fa-solid fa-envelope mail logo"></i> Email: mail@mail.com
             </div>
             <div class="cont1">
                 <form action="">
@@ -134,7 +120,7 @@
                     <input class="name" type="text" placeholder="E-Mail">
                 <div>
                     <br>
-                    <input class="message" type="text" placeholder="Message" style="width: 349px;">
+                    <input class="message" type="text" placeholder="Message">
                 </div>
                 <br>
                     <button class="button2" type="submit">SEND</button>
@@ -142,16 +128,17 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
     <!-- Section End -->
 
     <!-- Map Start -->
     <div class="map">
+        <img src="/assets/map.jpg" style="width: 100%;">
     </div>
     <!-- Map End -->
 
     <!-- Footer Start -->
-    <div class="footer">
+    <footer class="footer">
         <div>
         <i class="fa-brands fa-square-facebook fimg"></i>
         <i class="fa-brands fa-instagram fimg"></i>
@@ -160,8 +147,10 @@
         <i class="fa-brands fa-twitter fimg"></i>
         <i class="fa-brands fa-linkedin-in fimg"></i>
     </div>
-    </div>
-    <p class="footprg" >Powered by <a class="footprg" href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+    <div>
+    <p class="footprg" >Powered by <a class="link" href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+</div>
+    </footer>
     <!-- Footer End -->
 
 </body>
