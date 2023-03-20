@@ -305,6 +305,8 @@ body {
     background-color: #fff;
     width: 100%;
     height: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .sanf {
@@ -385,30 +387,35 @@ body {
 .map {
     margin-top: 250px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 /* Footer CSS */
 
 .footer{
+    margin-top: 30px;
     margin-left: 35%;
     margin-bottom: -150px;
 }
 
 .fimg {
     width: 20px;
-    height: 40px;
+    height: 20px;
     color: grey;
+    padding-bottom: 5px;
 }
 
 .fimg:hover {
-    background-color: grey;
+    background-color: gainsboro;
+    size: 1px;
+    border-radius: 5%;
 }
 
 .footprg {
     text-align: center;
+    padding-bottom: 30px;
     position: absolute;
-    margin-left: 0.2%;
+    margin-left: 0.1%;
     color: gray;
 }
 
@@ -513,6 +520,11 @@ body {
 }
 
 /* Section CSS */
+
+.pic {
+    height: 100vh;
+    object-fit: cover;
+}
 
 .section {
     height: 200%;
@@ -799,20 +811,21 @@ body {
 
 .fimg {
     width: 20px;
-    height: 40px;
+    height: 20px;
     color: grey;
     margin-top: 10%;
 }
 
 .fimg:hover {
-    background-color: grey;
+    background-color: gainsboro;
 }
 
 .footprg {
     text-align: center;
     position: absolute;
     margin-top: 2%;
-    margin-left: 0.2%;
+    /* margin-left: 0.1%; */
+    padding-bottom: 30px;
     color: gray;
 }
 
