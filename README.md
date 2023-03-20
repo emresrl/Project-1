@@ -1,20 +1,20 @@
 # Project 1
 
 ### Normal Ekran
-![Proje Görseli](/screenshots/1.png)
-![Proje Görseli](/screenshots/2.png)
-![Proje Görseli](/screenshots/3.png)
-![Proje Görseli](/screenshots/4.png)
-![Proje Görseli](/screenshots/5.png)
-![Proje Görseli](/screenshots/6.png)
+![Proje Görseli](/screenshots/g1.png)
+![Proje Görseli](/screenshots/g2.png)
+![Proje Görseli](/screenshots/g3.png)
+![Proje Görseli](/screenshots/g4.png)
+![Proje Görseli](/screenshots/g5.png)
+![Proje Görseli](/screenshots/g6.png)
 
 ### Mobil Uyumlu Ekran
-![Proje Görseli](/screenshots/r1.png)
-![Proje Görseli](/screenshots/r2.png)
-![Proje Görseli](/screenshots/r3.png)
-![Proje Görseli](/screenshots/r4.png)
-![Proje Görseli](/screenshots/r5.png)
-![Proje Görseli](/screenshots/r6.png)
+![Proje Görseli](/screenshots/gr1.png)
+![Proje Görseli](/screenshots/gr2.png)
+![Proje Görseli](/screenshots/gr3.png)
+![Proje Görseli](/screenshots/gr4.png)
+![Proje Görseli](/screenshots/gr5.png)
+![Proje Görseli](/screenshots/gr6.png)
 
 <!-- LİNK -->
 

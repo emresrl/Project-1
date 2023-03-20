@@ -7,8 +7,9 @@ body {
     font-family: "Lato" , sans-serif;
 }
 
+
  @media screen and (min-width: 290px) and (max-width: 600px) {
-    /* Navbar CSS */
+    /* Navbar CSS  */
 .menu {
     background-color: #000;
     height: 100%;
@@ -432,6 +433,7 @@ body {
     color: grey;
 }
  }
+
 
  @media screen and (min-width: 601px) and (max-width: 2000px) {
     /* Navbar CSS */
